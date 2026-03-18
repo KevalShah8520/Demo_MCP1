@@ -1,0 +1,18 @@
+{
+  "name": "demo_mcp1",
+  "version": "1.0.0",
+  "description": "Playwright automation suite for keval-todo-list.netlify.app — Login & Add Task modules",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:login": "npx playwright test tests/login.spec.js",
+    "test:addtask": "npx playwright test tests/addTask.spec.js",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
